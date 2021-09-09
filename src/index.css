@@ -10,6 +10,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("./assets/Beer-background.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 120%;
+  background-color: #ffa64d;
+  background-blend-mode: difference;
 }
 
 code {
