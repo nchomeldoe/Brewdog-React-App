@@ -5,11 +5,11 @@ import styles from "./FiltersList.module.scss";
 const FiltersList = () => {
     return (
         <>
-        <div>
-            Filters List works
-        </div>
+        <h2>Show only:</h2>
         <section>
-            <FilterItem />
+            <FilterItem text="High Alcohol (ABV > 6%)" name="alcohol"/>
+            <FilterItem text="Classic Range (pre 2010)" name="range"/>
+            <FilterItem text="High Acidity (pH < 4)" name="acidity"/>
         </section>
         </>
     )

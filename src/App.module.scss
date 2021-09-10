@@ -1,11 +1,22 @@
+@import "./variables.scss";
 
-.nav {
-    color: red;
-    font-family: 'Azeret Mono', monospace;
+.container {
+    display: flex;
+    font-family: $font-family;
+    
+
+    .nav {
+        color: red;
+        width: 15vw;
+        background-color: rgba(76, 26, 76, 0.8);
+        height: 100vh;
+    }
+
+    .main {
+        color: lime;
+        width: 85vw;
+        height: 100vh;
+        margin-left: $base-spacing;
+    }
+
 }
-
-.main {
-    color: lime;
-    font-family: 'Azeret Mono', monospace;
-}
-

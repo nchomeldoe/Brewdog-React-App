@@ -6,15 +6,22 @@ import FiltersList from "../../components/FiltersList";
 const Navbar = () => {
     return (
         <>
-        <div>
-            Navbar works
-        </div>
-        <section>
-            <SearchBox />
-        </section>
-        <section>
-            <FiltersList />
-        </section>
+        <section className={styles.container}>
+            <div className={styles.header}>
+                <h1>
+                    Brewdog Beer
+                </h1>
+                <h1>
+                    Back Catalogue
+                </h1>
+            </div>
+            <section>
+                <SearchBox />
+            </section>
+            <section>
+                <FiltersList />
+            </section>
+            </section>
         </>
     )
 }

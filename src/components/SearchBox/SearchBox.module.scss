@@ -1,0 +1,15 @@
+@import "../../variables.scss";
+
+input {
+    height: 100%;
+    width: 200px;
+    vertical-align: top;
+    margin-right: $base-spacing * 3;
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px solid $primary-color;
+    color: $primary-color;
+    background-color: transparent;
+
+
+  }
