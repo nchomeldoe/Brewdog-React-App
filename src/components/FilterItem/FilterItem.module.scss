@@ -1,0 +1,10 @@
+@import "../../variables.scss";
+
+.filters {
+    margin-bottom: $base-spacing*2;
+
+    input {
+        margin-left: $base-spacing;
+        background-color: black;
+    }
+}

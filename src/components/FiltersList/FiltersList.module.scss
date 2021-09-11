@@ -1,0 +1,12 @@
+@import "../../variables.scss";
+
+.filtersList {
+    h2 {
+        font-size: 20px;
+        margin-bottom: $base-spacing*2;
+    }
+
+    .filterItems {
+        font-size: 15px;
+    }
+}
