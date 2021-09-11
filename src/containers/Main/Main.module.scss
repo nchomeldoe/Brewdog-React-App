@@ -1,0 +1,7 @@
+@import "../../variables.scss";
+
+.container {
+    margin: $base-spacing*2;
+    text-align: center;
+    color: $primary-color;
+}

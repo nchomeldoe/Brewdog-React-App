@@ -6,16 +6,14 @@
     
 
     .nav {
-        color: red;
         width: 15vw;
-        background-color: rgba(76, 26, 76, 0.8);
-        height: 100vh;
+        background-color: $primary-background-colour;
+        height: auto;
     }
 
     .main {
-        color: lime;
         width: 85vw;
-        height: 100vh;
+        height: auto;
         margin-left: $base-spacing;
     }
 

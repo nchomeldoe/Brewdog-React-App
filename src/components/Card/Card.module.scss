@@ -1,0 +1,39 @@
+@import "../../variables.scss";
+
+.card {
+    height: 400px;
+    width: 275px;
+    background-color: $primary-background-colour;
+    overflow-y: scroll;
+    border-radius: 2%;
+    padding: $base-spacing*4;
+
+        img {
+            height: 50%;
+            margin-bottom: $base-spacing;
+        }
+
+        h3 {
+            margin-bottom: $base-spacing*2;
+        }
+
+        h4 {
+            margin-bottom: $base-spacing*2;
+        }
+
+        .since {
+            margin-bottom: $base-spacing*4;
+        }
+
+        .description {
+            margin-bottom: $base-spacing*4;
+            text-align: justify;
+        }
+
+        li {
+            list-style: none;
+            font-size: 14px;
+        }
+
+}
+

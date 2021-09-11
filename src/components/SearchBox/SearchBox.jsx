@@ -10,7 +10,7 @@ const SearchBox = () => {
         <section className={styles.search}>
             <input type="search" results="1" name="search"/>
             <label htmlFor="search"><FontAwesomeIcon icon={faSearch} /></label>
-            <p>Search by name, tagline, description, food pairing, pH or ABV</p>
+            <p>Search by name, food pairing or ABV</p>
         </section>
         </>
     )

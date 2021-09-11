@@ -13,7 +13,7 @@ body {
   background-image: url("./assets/Beer-background.jpeg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 120%;
+  background-size: 600%;
   background-color: #ffa64d;
   background-blend-mode: difference;
 }
