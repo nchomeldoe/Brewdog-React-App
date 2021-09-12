@@ -3,13 +3,30 @@
 .container {
     display: flex;
     font-family: $font-family;
+    height: 100%;
+    
     
 
     .nav {
         width: 15vw;
         background-color: $primary-background-colour;
-        height: auto;
+        height: 100vh;
+        align-self: flex-start;
+        position: sticky;
+        top: 0;
     }
+
+    @media only screen and (max-width: 1024px) {
+        .nav {
+            width: 20vw;
+        }
+       }
+
+    @media only screen and (max-width: 768px) {
+        .nav {
+            width: 30vw;
+        }
+       }
 
     .main {
         width: 85vw;
@@ -17,5 +34,17 @@
         min-height: 100vh;
         margin-left: $base-spacing;
     }
+
+    @media only screen and (max-width: 1024px) {
+        .main {
+            width: 80vw;
+        }
+       }
+
+    @media only screen and (max-width: 768px) {
+        .main {
+            width: 70vw;
+        }
+       }
 
 }

@@ -9,7 +9,7 @@ const SearchBox = (props) => {
     return (
         <>
         <section className={styles.search}>
-            <input type="search" results="1" name="search" onInput={(e) => setSearch(e.target.value)}/>
+            <input type="search" name="search" onInput={(e) => setSearch(e.target.value)}/>
             <label htmlFor="search"><FontAwesomeIcon icon={faSearch} /></label>
             <p>Search by name, food pairing or ABV</p>
         </section>
