@@ -3,7 +3,6 @@ import styles from "./Card.module.scss";
 
 const Card = (props) => {
     const {
-            id, 
             name, 
             tagline, 
             first_brewed, 
@@ -14,7 +13,7 @@ const Card = (props) => {
             food_pairing
     } = props.beer;
     return (
-        <div className={styles.card}>
+        <div className={styles.card} >
                 <img src={image_url} alt={name}/>
                 <h3>{name}</h3>
                 <h4>{tagline}</h4>
@@ -22,7 +21,7 @@ const Card = (props) => {
                 <p className={styles.since}>Since: {first_brewed}</p>
                 <p className={styles.description}>{description}</p>
                 <h5>Pair with:</h5>
-                <li>{food_pairing.map((dish) => (<ul>{dish}</ul>))}</li>
+                <li>{food_pairing.map((dish, index) => (<ul key={index}>{dish}</ul>))}</li>
         </div>
     )
 }

@@ -3,7 +3,8 @@ import styles from "./Navbar.module.scss";
 import SearchBox from "../../components/SearchBox";
 import FiltersList from "../../components/FiltersList";
 
-const Navbar = () => {
+const Navbar = (props) => {
+    const {toggleAbvFilter, toggleClassicFilter, togglePhFilter, setSearch} = props;
     return (
         <>
         <section className={styles.container}>
@@ -16,10 +17,10 @@ const Navbar = () => {
                 </h1>
             </div>
             <section>
-                <SearchBox />
+                <SearchBox setSearch={setSearch}/>
             </section>
             <section>
-                <FiltersList />
+                <FiltersList toggleAbvFilter={toggleAbvFilter} toggleClassicFilter={toggleClassicFilter} togglePhFilter={togglePhFilter}/>
             </section>
             </section>
         </>
