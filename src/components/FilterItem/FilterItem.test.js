@@ -18,4 +18,9 @@ describe("FilterItem tests", () => {
   it('should render', () => {
     expect(component).toBeTruthy();
   })
+
+  it('should call function on change', () => {
+    component.find("input").simulate("change");
+    expect(mockFn).toHaveBeenCalled();
+  })
 });

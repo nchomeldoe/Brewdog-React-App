@@ -14,4 +14,14 @@ describe("SearchBox tests", () => {
   it('should render', () => {
     expect(component).toBeTruthy();
   })
+
+  it('should call function on input', () => {
+    component.find("input").simulate("input", {target: {value: "User input"}});
+    expect(mockFn).toHaveBeenCalled();
+  })
+
+  it('should call function with "User input', () => {
+    component.find("input").simulate("input", {target: {value: "User input"}});
+    expect(mockFn).toHaveBeenCalledWith("User input");
+  })
 });
