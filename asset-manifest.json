@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Brewdog-React-App/static/css/main.f205760b.chunk.css",
+    "main.js": "/Brewdog-React-App/static/js/main.8a87f977.chunk.js",
+    "main.js.map": "/Brewdog-React-App/static/js/main.8a87f977.chunk.js.map",
+    "runtime-main.js": "/Brewdog-React-App/static/js/runtime-main.82e28ce6.js",
+    "runtime-main.js.map": "/Brewdog-React-App/static/js/runtime-main.82e28ce6.js.map",
+    "static/js/2.12201607.chunk.js": "/Brewdog-React-App/static/js/2.12201607.chunk.js",
+    "static/js/2.12201607.chunk.js.map": "/Brewdog-React-App/static/js/2.12201607.chunk.js.map",
+    "static/js/3.f5df2efa.chunk.js": "/Brewdog-React-App/static/js/3.f5df2efa.chunk.js",
+    "static/js/3.f5df2efa.chunk.js.map": "/Brewdog-React-App/static/js/3.f5df2efa.chunk.js.map",
+    "index.html": "/Brewdog-React-App/index.html",
+    "static/css/main.f205760b.chunk.css.map": "/Brewdog-React-App/static/css/main.f205760b.chunk.css.map",
+    "static/js/2.12201607.chunk.js.LICENSE.txt": "/Brewdog-React-App/static/js/2.12201607.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Brewdog-React-App/static/media/Beer-background.c8e814ca.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82e28ce6.js",
+    "static/js/2.12201607.chunk.js",
+    "static/css/main.f205760b.chunk.css",
+    "static/js/main.8a87f977.chunk.js"
+  ]
+}
